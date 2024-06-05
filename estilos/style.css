@@ -35,8 +35,11 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    overflow: hidden; /* esconder tudo que está fora da borda */
+    overflow: hidden; /* Esconder tudo que está fora da borda */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease; /* Dar uma suavizada durante a animação */
 }
 
 section#login > div#imagem {
